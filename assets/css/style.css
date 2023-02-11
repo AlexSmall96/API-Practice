@@ -1,4 +1,30 @@
-#check{
-  display:inline;
+header button{
+  float:right;
+  padding:15px
 }
+
+header{
+  margin:20px;
+  height:100px;
+  border-bottom-style: solid;
+  border-bottom-color: lightgrey;
+  border-bottom-width: 1px;
+}
+
+
+#main{
+  height:600px;
+}
+
+form{
+  width:90%;
+  margin:10px;
+}
+
+
+
+
+
+
+
 
