@@ -1,32 +1,50 @@
-header button{
-  float:right;
-  padding:15px;
+@font-face {
+  font-family: "Menlo";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Menlo-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Menlo";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Menlo-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Menlo";
+  font-style: italic;
+  font-weight: normal;
+  src: url("../fonts/Menlo-Italic.woff") format("woff");
+}
+@font-face {
+  font-family: "Menlo";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/Menlo-BoldItalic.woff") format("woff");
 }
 
-header{
-  margin:20px;
-  height:100px;
-  border-bottom-style: solid;
-  border-bottom-color: lightgrey;
-  border-bottom-width: 1px;
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
 }
 
-
-#main{
-  height:600px;
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+  box-shadow: 0 0 1px rgba(255, 255, 255, .5);
 }
 
-form{
-  width:90%;
-  margin:10px;
+body {
+    margin-top: 10px;
 }
 
-#code{
-  height:200px;
+textarea  
+{  
+   font-family: "Menlo", 'Courier New', Courier, monospace;
+   height: 25vh;
 }
 
-
-
-
-
-
+.modal-body {
+    max-height: 60vh;
+    overflow-y: scroll;
+}
